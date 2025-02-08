@@ -11,14 +11,14 @@ const AboutSection = () => {
         </p>
 
         {/* Flex container for images */}
-        <div className="mt-12 flex flex-col sm:flex-row justify-center items-center space-y-8 sm:space-y-0 sm:space-x-8">
+        <div className=" mt-12 flex flex-col sm:flex-row justify-center items-center space-y-8 sm:space-y-0 sm:space-x-8">
           {/* First Image */}
           <div className="text-center">
             <div className='flex justify-center'>
             <img
               src="/usc.png"
               alt="University of San Carlos"
-              className="w-40 h-40 sm:w-60 sm:h-60 rounded-full border-4 border-green-500 shadow-xl object-cover transition-transform transform hover:scale-110"
+              className="overflow-auto w-40 h-40 sm:w-60 sm:h-60 rounded-full border-4 border-green-500 shadow-xl object-cover transition-transform transform hover:scale-110"
             />
             </div>
             <p className="mt-2 text-lg text-gray-700 font-bold">University of San Carlos</p>

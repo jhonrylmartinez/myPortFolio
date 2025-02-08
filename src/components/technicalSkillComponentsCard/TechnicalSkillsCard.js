@@ -4,7 +4,7 @@ const TechnicalSkillsCard = ({image, title}) => {
         <img
           src={image} 
           alt="technical skill image"
-          className="w-30 h-20 mx-auto mb-4 transition-transform transform hover:scale-110"
+          className="w-30 h-20 mx-auto mb-4 transition-transform transform hover:scale-110 "
         />
         <h3 className="text-xl font-semibold text-gray-800">{title}</h3>
       </div>

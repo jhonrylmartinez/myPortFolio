@@ -8,7 +8,7 @@ const PortfolioHeader = () => {
   };
 
   return (
-    <header className="py-4 px-6 shadow-lg sticky top-0 bg-white z-50">
+    <header className="py-4 px-6 shadow-lg bg-white z-50">
       <div className="flex justify-between items-center">
         {/* Logo */}
         <div className="text-2xl font-bold">

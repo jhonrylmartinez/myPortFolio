@@ -4,7 +4,7 @@ import Card from './projectSectionComponents/Card';
 const ProjectSection = () => {
   return (
     <div>
-      <section id="projects" className="py-16 bg-gray-50">
+      <section id="projects" className="py-16">
         <h2 className="text-3xl font-semibold text-center text-gray-900">My Projects</h2>
         <p className="mt-4 text-lg max-w-3xl mx-auto text-center text-gray-700">
           Here are some of the projects I've worked on, showcasing my skills and experience with different technologies.

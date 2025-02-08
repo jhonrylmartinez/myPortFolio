@@ -55,7 +55,6 @@ const AboutSection = () => {
           <TechnicalSkillsCard title="Xampp" image={`/xampp.jpg`}/>
           <TechnicalSkillsCard title="Git" image={`/git.png`}/>
           <TechnicalSkillsCard title="Sequelize" image={`/sequelize.png`}/>
-         
         </div>
       </section>
     </div>

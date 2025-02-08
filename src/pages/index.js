@@ -8,11 +8,12 @@ import ProjectSection from "@/components/ProjectSection";
 export default function Home() {
   return (
     <>
+     {/* Header  */}
      <div>
-       {/* Header  */}
-      <div>
       <PortfolioHeader />
       </div>
+     <div className="border border-blue-500 p-5">
+      
       
       {/* Hero Section */}
     <div>

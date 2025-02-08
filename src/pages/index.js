@@ -12,7 +12,7 @@ export default function Home() {
      <div>
       <PortfolioHeader />
       </div>
-     <div className="border border-blue-500 p-5">
+     <div className="p-5">
       
       
       {/* Hero Section */}

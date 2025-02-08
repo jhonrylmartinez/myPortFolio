@@ -35,7 +35,7 @@ const ContactSection = () => {
           onClick={closeModal}
         >
           <div
-            className="bg-white p-6 rounded-lg shadow-lg max-w-sm mx-auto relative w-[50rem]"
+            className="bg-white p-6 rounded-lg shadow-lg max-w-[90%] sm:max-w-[50rem] mx-auto relative w-full"
             onClick={(e) => e.stopPropagation()} // Prevent click event from closing modal
           >
             {/* Close Button (X) */}

@@ -11,12 +11,12 @@ const ContactSection = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     setIsSending(true);
-    
+  
     emailjs.sendForm(
-      'service_hs3oi1g',  // Replace with your actual Service ID
-      'template_j1d2x8h', // Replace with your actual Template ID
+      'service_hs3oi1g',  // Your Service ID
+      'template_j1d2x8h', // Your Template ID
       e.target,
-      'tMGgEnhh8LvHNmDfu' // Replace with your actual Public Key
+      'tMGgEnhh8LvHNmDfu' // Your Public Key
     ).then(
       (result) => {
         alert('✅ Message sent successfully!');
@@ -29,9 +29,9 @@ const ContactSection = () => {
     ).finally(() => {
       setIsSending(false);
       e.target.reset(); // Reset form after submission
-      e.clear()
     });
   };
+  
 
   return (
     <div>
